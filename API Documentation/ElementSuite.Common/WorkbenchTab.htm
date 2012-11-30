@@ -1,0 +1,2661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <title>WorkbenchTab - ElementSuite.Addin Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css" rel="stylesheet" href="../main.css"/>
+    <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="../js/navigation.js"></script>
+    <script type="text/javascript" src="../js/example.js"></script>
+  </head>
+  <body>
+  	<header><h1>ElementSuite.Addin : API Documentation</h1>
+	</header>
+<nav id="namespaces">
+	<h2 class="fixed">Namespaces</h2>
+	<div class="scroll">
+		<ul>
+			<li>
+          <a href="../ElementSuite.Addin/index.htm">ElementSuite.Addin</a>
+      </li>
+			<li>
+          <a href="../ElementSuite.Addin.Interface/index.htm">ElementSuite.Addin.Interface</a>
+      </li>
+			<li>
+          <a href="../ElementSuite.Common/index.htm" class="current">ElementSuite.Common</a>
+      </li>
+			<li>
+          <a href="../ElementSuite.Common.Interface/index.htm">ElementSuite.Common.Interface</a>
+      </li>
+		</ul>
+	</div>
+</nav><nav id="types">
+  <h2 class="fixed">Types in ElementSuite.Common</h2>
+	<div class="scroll">
+		<ul>
+				<li>
+            <a href="../ElementSuite.Common/LogLevel.htm">LogLevel</a>
+        </li>
+				<li>
+            <a href="../ElementSuite.Common/WorkbenchTab.htm" class="current">WorkbenchTab</a>
+        </li>
+				<li>
+            <a href="../ElementSuite.Common/WorkContext.htm">WorkContext</a>
+        </li>
+				<li>
+            <a href="../ElementSuite.Common/WorkerInfo.htm">WorkerInfo</a>
+        </li>
+				<li>
+            <a href="../ElementSuite.Common/WorkQueueInfo.htm">WorkQueueInfo</a>
+        </li>
+		</ul>
+	</div>
+</nav>
+	<article>
+    <header>
+		<p class="class"><strong>Type</strong> WorkbenchTab</p>
+	</header>
+	<section>
+		<header>
+		<p><strong>Namespace</strong> ElementSuite.Common</p>
+		<p><strong>Parent</strong> <span title="System.Windows.Controls.TabItem">TabItem</span></p>
+		</header>
+    <div class="sub-header">
+		
+			<h3 class="section">Events</h3>
+			<ul>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Close">Close</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseDoubleClick">PreviewMouseDoubleClick</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseDoubleClick">MouseDoubleClick</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TargetUpdated">TargetUpdated</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SourceUpdated">SourceUpdated</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DataContextChanged">DataContextChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RequestBringIntoView">RequestBringIntoView</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SizeChanged">SizeChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Initialized">Initialized</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Loaded">Loaded</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Unloaded">Unloaded</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ToolTipOpening">ToolTipOpening</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ToolTipClosing">ToolTipClosing</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContextMenuOpening">ContextMenuOpening</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContextMenuClosing">ContextMenuClosing</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseDown">PreviewMouseDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseDown">MouseDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseUp">PreviewMouseUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseUp">MouseUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseLeftButtonDown">PreviewMouseLeftButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseLeftButtonDown">MouseLeftButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseLeftButtonUp">PreviewMouseLeftButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseLeftButtonUp">MouseLeftButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseRightButtonDown">PreviewMouseRightButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseRightButtonDown">MouseRightButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseRightButtonUp">PreviewMouseRightButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseRightButtonUp">MouseRightButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseMove">PreviewMouseMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseMove">MouseMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewMouseWheel">PreviewMouseWheel</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseWheel">MouseWheel</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseEnter">MouseEnter</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MouseLeave">MouseLeave</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GotMouseCapture">GotMouseCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LostMouseCapture">LostMouseCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#QueryCursor">QueryCursor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusDown">PreviewStylusDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusDown">StylusDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusUp">PreviewStylusUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusUp">StylusUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusMove">PreviewStylusMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusMove">StylusMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusInAirMove">PreviewStylusInAirMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusInAirMove">StylusInAirMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusEnter">StylusEnter</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusLeave">StylusLeave</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusInRange">PreviewStylusInRange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusInRange">StylusInRange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusOutOfRange">PreviewStylusOutOfRange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusOutOfRange">StylusOutOfRange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusSystemGesture">PreviewStylusSystemGesture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusSystemGesture">StylusSystemGesture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GotStylusCapture">GotStylusCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LostStylusCapture">LostStylusCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusButtonDown">StylusButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#StylusButtonUp">StylusButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusButtonDown">PreviewStylusButtonDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewStylusButtonUp">PreviewStylusButtonUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewKeyDown">PreviewKeyDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#KeyDown">KeyDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewKeyUp">PreviewKeyUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#KeyUp">KeyUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewGotKeyboardFocus">PreviewGotKeyboardFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GotKeyboardFocus">GotKeyboardFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewLostKeyboardFocus">PreviewLostKeyboardFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LostKeyboardFocus">LostKeyboardFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewTextInput">PreviewTextInput</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TextInput">TextInput</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewQueryContinueDrag">PreviewQueryContinueDrag</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#QueryContinueDrag">QueryContinueDrag</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewGiveFeedback">PreviewGiveFeedback</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GiveFeedback">GiveFeedback</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewDragEnter">PreviewDragEnter</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DragEnter">DragEnter</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewDragOver">PreviewDragOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DragOver">DragOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewDragLeave">PreviewDragLeave</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DragLeave">DragLeave</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewDrop">PreviewDrop</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Drop">Drop</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewTouchDown">PreviewTouchDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchDown">TouchDown</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewTouchMove">PreviewTouchMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchMove">TouchMove</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PreviewTouchUp">PreviewTouchUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchUp">TouchUp</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GotTouchCapture">GotTouchCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LostTouchCapture">LostTouchCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchEnter">TouchEnter</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchLeave">TouchLeave</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseDirectlyOverChanged">IsMouseDirectlyOverChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsKeyboardFocusWithinChanged">IsKeyboardFocusWithinChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseCapturedChanged">IsMouseCapturedChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseCaptureWithinChanged">IsMouseCaptureWithinChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusDirectlyOverChanged">IsStylusDirectlyOverChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusCapturedChanged">IsStylusCapturedChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusCaptureWithinChanged">IsStylusCaptureWithinChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsKeyboardFocusedChanged">IsKeyboardFocusedChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LayoutUpdated">LayoutUpdated</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GotFocus">GotFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LostFocus">LostFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsEnabledChanged">IsEnabledChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsHitTestVisibleChanged">IsHitTestVisibleChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsVisibleChanged">IsVisibleChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FocusableChanged">FocusableChanged</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationStarting">ManipulationStarting</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationStarted">ManipulationStarted</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationDelta">ManipulationDelta</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationInertiaStarting">ManipulationInertiaStarting</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationBoundaryFeedback">ManipulationBoundaryFeedback</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ManipulationCompleted">ManipulationCompleted</a></li>
+			</ul>
+		
+			<h3 class="section">Methods</h3>
+			<ul>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AddHandler">AddHandler</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AddHandler">AddHandler</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AddToEventRoute">AddToEventRoute</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ApplyAnimationClock">ApplyAnimationClock</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ApplyAnimationClock">ApplyAnimationClock</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ApplyTemplate">ApplyTemplate</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Arrange">Arrange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginAnimation">BeginAnimation</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginAnimation">BeginAnimation</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginInit">BeginInit</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginStoryboard">BeginStoryboard</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginStoryboard">BeginStoryboard</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BeginStoryboard">BeginStoryboard</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BringIntoView">BringIntoView</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BringIntoView">BringIntoView</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CaptureMouse">CaptureMouse</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CaptureStylus">CaptureStylus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CaptureTouch">CaptureTouch</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CheckAccess">CheckAccess</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ClearValue">ClearValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ClearValue">ClearValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CoerceValue">CoerceValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#EndInit">EndInit</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FindCommonVisualAncestor">FindCommonVisualAncestor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FindName">FindName</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FindResource">FindResource</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Focus">Focus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GetAnimationBaseValue">GetAnimationBaseValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GetBindingExpression">GetBindingExpression</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GetLocalValueEnumerator">GetLocalValueEnumerator</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#GetValue">GetValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InputHitTest">InputHitTest</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InvalidateArrange">InvalidateArrange</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InvalidateMeasure">InvalidateMeasure</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InvalidateProperty">InvalidateProperty</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InvalidateVisual">InvalidateVisual</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsAncestorOf">IsAncestorOf</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsDescendantOf">IsDescendantOf</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Measure">Measure</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MoveFocus">MoveFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#OnApplyTemplate">OnApplyTemplate</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PointFromScreen">PointFromScreen</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PointToScreen">PointToScreen</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PredictFocus">PredictFocus</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RaiseEvent">RaiseEvent</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ReadLocalValue">ReadLocalValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RegisterName">RegisterName</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ReleaseAllTouchCaptures">ReleaseAllTouchCaptures</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ReleaseMouseCapture">ReleaseMouseCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ReleaseStylusCapture">ReleaseStylusCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ReleaseTouchCapture">ReleaseTouchCapture</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RemoveHandler">RemoveHandler</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetBinding">SetBinding</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetBinding">SetBinding</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetCurrentValue">SetCurrentValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetResourceReference">SetResourceReference</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetValue">SetValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SetValue">SetValue</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeCommandBindings">ShouldSerializeCommandBindings</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeContent">ShouldSerializeContent</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeInputBindings">ShouldSerializeInputBindings</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeResources">ShouldSerializeResources</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeStyle">ShouldSerializeStyle</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ShouldSerializeTriggers">ShouldSerializeTriggers</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TransformToAncestor">TransformToAncestor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TransformToAncestor">TransformToAncestor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TransformToDescendant">TransformToDescendant</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TransformToVisual">TransformToVisual</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TranslatePoint">TranslatePoint</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TryFindResource">TryFindResource</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#UnregisterName">UnregisterName</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#UpdateDefaultStyle">UpdateDefaultStyle</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#UpdateLayout">UpdateLayout</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#VerifyAccess">VerifyAccess</a></li>
+			</ul>
+		
+			<h3 class="section">Properties</h3>
+			<ul>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ActualHeight">ActualHeight</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ActualWidth">ActualWidth</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AllowDrop">AllowDrop</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AreAnyTouchesCaptured">AreAnyTouchesCaptured</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AreAnyTouchesCapturedWithin">AreAnyTouchesCapturedWithin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AreAnyTouchesDirectlyOver">AreAnyTouchesDirectlyOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#AreAnyTouchesOver">AreAnyTouchesOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Background">Background</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BindingGroup">BindingGroup</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BitmapEffect">BitmapEffect</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BitmapEffectInput">BitmapEffectInput</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BorderBrush">BorderBrush</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#BorderThickness">BorderThickness</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CacheMode">CacheMode</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Clip">Clip</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ClipToBounds">ClipToBounds</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CommandBindings">CommandBindings</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Content">Content</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContentStringFormat">ContentStringFormat</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContentTemplate">ContentTemplate</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContentTemplateSelector">ContentTemplateSelector</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ContextMenu">ContextMenu</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Cursor">Cursor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DataContext">DataContext</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DependencyObjectType">DependencyObjectType</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#DesiredSize">DesiredSize</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Dispatcher">Dispatcher</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Effect">Effect</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FlowDirection">FlowDirection</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Focusable">Focusable</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FocusVisualStyle">FocusVisualStyle</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FontFamily">FontFamily</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FontSize">FontSize</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FontStretch">FontStretch</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FontStyle">FontStyle</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#FontWeight">FontWeight</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ForceCursor">ForceCursor</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Foreground">Foreground</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HasAnimatedProperties">HasAnimatedProperties</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HasContent">HasContent</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HasHeader">HasHeader</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Header">Header</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HeaderStringFormat">HeaderStringFormat</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HeaderTemplate">HeaderTemplate</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HeaderTemplateSelector">HeaderTemplateSelector</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Height">Height</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HorizontalAlignment">HorizontalAlignment</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#HorizontalContentAlignment">HorizontalContentAlignment</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InputBindings">InputBindings</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#InputScope">InputScope</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsArrangeValid">IsArrangeValid</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsEnabled">IsEnabled</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsFocused">IsFocused</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsHitTestVisible">IsHitTestVisible</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsInitialized">IsInitialized</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsInputMethodEnabled">IsInputMethodEnabled</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsKeyboardFocused">IsKeyboardFocused</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsKeyboardFocusWithin">IsKeyboardFocusWithin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsLoaded">IsLoaded</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsManipulationEnabled">IsManipulationEnabled</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMeasureValid">IsMeasureValid</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseCaptured">IsMouseCaptured</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseCaptureWithin">IsMouseCaptureWithin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseDirectlyOver">IsMouseDirectlyOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsMouseOver">IsMouseOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsSealed">IsSealed</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsSelected">IsSelected</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusCaptured">IsStylusCaptured</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusCaptureWithin">IsStylusCaptureWithin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusDirectlyOver">IsStylusDirectlyOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsStylusOver">IsStylusOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsTabStop">IsTabStop</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#IsVisible">IsVisible</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Language">Language</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#LayoutTransform">LayoutTransform</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Margin">Margin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MaxHeight">MaxHeight</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MaxWidth">MaxWidth</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MinHeight">MinHeight</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#MinWidth">MinWidth</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Name">Name</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Opacity">Opacity</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#OpacityMask">OpacityMask</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#OverridesDefaultStyle">OverridesDefaultStyle</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Padding">Padding</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Parent">Parent</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#PersistId">PersistId</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RenderSize">RenderSize</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RenderTransform">RenderTransform</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#RenderTransformOrigin">RenderTransformOrigin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Resources">Resources</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#SnapsToDevicePixels">SnapsToDevicePixels</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Style">Style</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TabIndex">TabIndex</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TabStripPlacement">TabStripPlacement</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Tag">Tag</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Template">Template</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TemplatedParent">TemplatedParent</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#ToolTip">ToolTip</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchesCaptured">TouchesCaptured</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchesCapturedWithin">TouchesCapturedWithin</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchesDirectlyOver">TouchesDirectlyOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#TouchesOver">TouchesOver</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Triggers">Triggers</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Uid">Uid</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#UseLayoutRounding">UseLayoutRounding</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#VerticalAlignment">VerticalAlignment</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#VerticalContentAlignment">VerticalContentAlignment</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Visibility">Visibility</a></li>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#Width">Width</a></li>
+			</ul>
+		
+			<h3 class="section">Fields</h3>
+			<ul>
+				<li><a href="../ElementSuite.Common/WorkbenchTab.htm#CloseEvent">CloseEvent</a></li>
+			</ul>
+	</div>
+  <h3 class="section">Events</h3>
+
+  <div id="Close" class="method">
+    <h4><strong>Close</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseDoubleClick" class="method">
+    <h4><strong>PreviewMouseDoubleClick</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseDoubleClick" class="method">
+    <h4><strong>MouseDoubleClick</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TargetUpdated" class="method">
+    <h4><strong>TargetUpdated</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="SourceUpdated" class="method">
+    <h4><strong>SourceUpdated</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="DataContextChanged" class="method">
+    <h4><strong>DataContextChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="RequestBringIntoView" class="method">
+    <h4><strong>RequestBringIntoView</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="SizeChanged" class="method">
+    <h4><strong>SizeChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="Initialized" class="method">
+    <h4><strong>Initialized</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="Loaded" class="method">
+    <h4><strong>Loaded</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="Unloaded" class="method">
+    <h4><strong>Unloaded</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ToolTipOpening" class="method">
+    <h4><strong>ToolTipOpening</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ToolTipClosing" class="method">
+    <h4><strong>ToolTipClosing</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ContextMenuOpening" class="method">
+    <h4><strong>ContextMenuOpening</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ContextMenuClosing" class="method">
+    <h4><strong>ContextMenuClosing</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseDown" class="method">
+    <h4><strong>PreviewMouseDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseDown" class="method">
+    <h4><strong>MouseDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseUp" class="method">
+    <h4><strong>PreviewMouseUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseUp" class="method">
+    <h4><strong>MouseUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseLeftButtonDown" class="method">
+    <h4><strong>PreviewMouseLeftButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseLeftButtonDown" class="method">
+    <h4><strong>MouseLeftButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseLeftButtonUp" class="method">
+    <h4><strong>PreviewMouseLeftButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseLeftButtonUp" class="method">
+    <h4><strong>MouseLeftButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseRightButtonDown" class="method">
+    <h4><strong>PreviewMouseRightButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseRightButtonDown" class="method">
+    <h4><strong>MouseRightButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseRightButtonUp" class="method">
+    <h4><strong>PreviewMouseRightButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseRightButtonUp" class="method">
+    <h4><strong>MouseRightButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseMove" class="method">
+    <h4><strong>PreviewMouseMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseMove" class="method">
+    <h4><strong>MouseMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewMouseWheel" class="method">
+    <h4><strong>PreviewMouseWheel</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseWheel" class="method">
+    <h4><strong>MouseWheel</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseEnter" class="method">
+    <h4><strong>MouseEnter</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="MouseLeave" class="method">
+    <h4><strong>MouseLeave</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GotMouseCapture" class="method">
+    <h4><strong>GotMouseCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LostMouseCapture" class="method">
+    <h4><strong>LostMouseCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="QueryCursor" class="method">
+    <h4><strong>QueryCursor</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusDown" class="method">
+    <h4><strong>PreviewStylusDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusDown" class="method">
+    <h4><strong>StylusDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusUp" class="method">
+    <h4><strong>PreviewStylusUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusUp" class="method">
+    <h4><strong>StylusUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusMove" class="method">
+    <h4><strong>PreviewStylusMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusMove" class="method">
+    <h4><strong>StylusMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusInAirMove" class="method">
+    <h4><strong>PreviewStylusInAirMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusInAirMove" class="method">
+    <h4><strong>StylusInAirMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusEnter" class="method">
+    <h4><strong>StylusEnter</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusLeave" class="method">
+    <h4><strong>StylusLeave</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusInRange" class="method">
+    <h4><strong>PreviewStylusInRange</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusInRange" class="method">
+    <h4><strong>StylusInRange</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusOutOfRange" class="method">
+    <h4><strong>PreviewStylusOutOfRange</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusOutOfRange" class="method">
+    <h4><strong>StylusOutOfRange</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusSystemGesture" class="method">
+    <h4><strong>PreviewStylusSystemGesture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusSystemGesture" class="method">
+    <h4><strong>StylusSystemGesture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GotStylusCapture" class="method">
+    <h4><strong>GotStylusCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LostStylusCapture" class="method">
+    <h4><strong>LostStylusCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusButtonDown" class="method">
+    <h4><strong>StylusButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="StylusButtonUp" class="method">
+    <h4><strong>StylusButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusButtonDown" class="method">
+    <h4><strong>PreviewStylusButtonDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewStylusButtonUp" class="method">
+    <h4><strong>PreviewStylusButtonUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewKeyDown" class="method">
+    <h4><strong>PreviewKeyDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="KeyDown" class="method">
+    <h4><strong>KeyDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewKeyUp" class="method">
+    <h4><strong>PreviewKeyUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="KeyUp" class="method">
+    <h4><strong>KeyUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewGotKeyboardFocus" class="method">
+    <h4><strong>PreviewGotKeyboardFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GotKeyboardFocus" class="method">
+    <h4><strong>GotKeyboardFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewLostKeyboardFocus" class="method">
+    <h4><strong>PreviewLostKeyboardFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LostKeyboardFocus" class="method">
+    <h4><strong>LostKeyboardFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewTextInput" class="method">
+    <h4><strong>PreviewTextInput</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TextInput" class="method">
+    <h4><strong>TextInput</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewQueryContinueDrag" class="method">
+    <h4><strong>PreviewQueryContinueDrag</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="QueryContinueDrag" class="method">
+    <h4><strong>QueryContinueDrag</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewGiveFeedback" class="method">
+    <h4><strong>PreviewGiveFeedback</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GiveFeedback" class="method">
+    <h4><strong>GiveFeedback</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewDragEnter" class="method">
+    <h4><strong>PreviewDragEnter</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="DragEnter" class="method">
+    <h4><strong>DragEnter</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewDragOver" class="method">
+    <h4><strong>PreviewDragOver</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="DragOver" class="method">
+    <h4><strong>DragOver</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewDragLeave" class="method">
+    <h4><strong>PreviewDragLeave</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="DragLeave" class="method">
+    <h4><strong>DragLeave</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewDrop" class="method">
+    <h4><strong>PreviewDrop</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="Drop" class="method">
+    <h4><strong>Drop</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewTouchDown" class="method">
+    <h4><strong>PreviewTouchDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TouchDown" class="method">
+    <h4><strong>TouchDown</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewTouchMove" class="method">
+    <h4><strong>PreviewTouchMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TouchMove" class="method">
+    <h4><strong>TouchMove</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="PreviewTouchUp" class="method">
+    <h4><strong>PreviewTouchUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TouchUp" class="method">
+    <h4><strong>TouchUp</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GotTouchCapture" class="method">
+    <h4><strong>GotTouchCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LostTouchCapture" class="method">
+    <h4><strong>LostTouchCapture</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TouchEnter" class="method">
+    <h4><strong>TouchEnter</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="TouchLeave" class="method">
+    <h4><strong>TouchLeave</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsMouseDirectlyOverChanged" class="method">
+    <h4><strong>IsMouseDirectlyOverChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsKeyboardFocusWithinChanged" class="method">
+    <h4><strong>IsKeyboardFocusWithinChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsMouseCapturedChanged" class="method">
+    <h4><strong>IsMouseCapturedChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsMouseCaptureWithinChanged" class="method">
+    <h4><strong>IsMouseCaptureWithinChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsStylusDirectlyOverChanged" class="method">
+    <h4><strong>IsStylusDirectlyOverChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsStylusCapturedChanged" class="method">
+    <h4><strong>IsStylusCapturedChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsStylusCaptureWithinChanged" class="method">
+    <h4><strong>IsStylusCaptureWithinChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsKeyboardFocusedChanged" class="method">
+    <h4><strong>IsKeyboardFocusedChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LayoutUpdated" class="method">
+    <h4><strong>LayoutUpdated</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="GotFocus" class="method">
+    <h4><strong>GotFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="LostFocus" class="method">
+    <h4><strong>LostFocus</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsEnabledChanged" class="method">
+    <h4><strong>IsEnabledChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsHitTestVisibleChanged" class="method">
+    <h4><strong>IsHitTestVisibleChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="IsVisibleChanged" class="method">
+    <h4><strong>IsVisibleChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="FocusableChanged" class="method">
+    <h4><strong>FocusableChanged</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationStarting" class="method">
+    <h4><strong>ManipulationStarting</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationStarted" class="method">
+    <h4><strong>ManipulationStarted</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationDelta" class="method">
+    <h4><strong>ManipulationDelta</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationInertiaStarting" class="method">
+    <h4><strong>ManipulationInertiaStarting</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationBoundaryFeedback" class="method">
+    <h4><strong>ManipulationBoundaryFeedback</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+  <div id="ManipulationCompleted" class="method">
+    <h4><strong>ManipulationCompleted</strong></h4>
+    <div class="content">
+    </div>
+  </div>
+	
+	<h3 class="section">Public instance methods</h3>
+
+	<div id="AddHandler" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>AddHandler</strong>(<span title="System.Windows.RoutedEvent">RoutedEvent</span> routedEvent, <span title="System.Delegate">Delegate</span> handler)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="AddHandler" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>AddHandler</strong>(<span title="System.Windows.RoutedEvent">RoutedEvent</span> routedEvent, <span title="System.Delegate">Delegate</span> handler, <span title="System.bool">bool</span> handledEventsToo)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="AddToEventRoute" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>AddToEventRoute</strong>(<span title="System.Windows.EventRoute">EventRoute</span> route, <span title="System.Windows.RoutedEventArgs">RoutedEventArgs</span> e)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ApplyAnimationClock" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ApplyAnimationClock</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.Windows.Media.Animation.AnimationClock">AnimationClock</span> clock)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ApplyAnimationClock" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ApplyAnimationClock</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.Windows.Media.Animation.AnimationClock">AnimationClock</span> clock, <span title="System.Windows.Media.Animation.HandoffBehavior">HandoffBehavior</span> handoffBehavior)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ApplyTemplate" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ApplyTemplate</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="Arrange" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>Arrange</strong>(<span title="System.Windows.Rect">Rect</span> finalRect)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginAnimation" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginAnimation</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.Windows.Media.Animation.AnimationTimeline">AnimationTimeline</span> animation)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginAnimation" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginAnimation</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.Windows.Media.Animation.AnimationTimeline">AnimationTimeline</span> animation, <span title="System.Windows.Media.Animation.HandoffBehavior">HandoffBehavior</span> handoffBehavior)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginInit" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginInit</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginStoryboard" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginStoryboard</strong>(<span title="System.Windows.Media.Animation.Storyboard">Storyboard</span> storyboard, <span title="System.Windows.Media.Animation.HandoffBehavior">HandoffBehavior</span> handoffBehavior)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginStoryboard" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginStoryboard</strong>(<span title="System.Windows.Media.Animation.Storyboard">Storyboard</span> storyboard, <span title="System.Windows.Media.Animation.HandoffBehavior">HandoffBehavior</span> handoffBehavior, <span title="System.bool">bool</span> isControllable)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BeginStoryboard" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BeginStoryboard</strong>(<span title="System.Windows.Media.Animation.Storyboard">Storyboard</span> storyboard)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BringIntoView" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BringIntoView</strong>(<span title="System.Windows.Rect">Rect</span> targetRectangle)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="BringIntoView" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>BringIntoView</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="CaptureMouse" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>CaptureMouse</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="CaptureStylus" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>CaptureStylus</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="CaptureTouch" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>CaptureTouch</strong>(<span title="System.Windows.Input.TouchDevice">TouchDevice</span> touchDevice)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="CheckAccess" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>CheckAccess</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ClearValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ClearValue</strong>(<span title="System.Windows.DependencyPropertyKey">DependencyPropertyKey</span> key)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ClearValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ClearValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="CoerceValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>CoerceValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="EndInit" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>EndInit</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="FindCommonVisualAncestor" class="method">
+		<h4>
+			<span title="System.Windows.DependencyObject">DependencyObject</span> <strong>FindCommonVisualAncestor</strong>(<span title="System.Windows.DependencyObject">DependencyObject</span> otherVisual)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="FindName" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>FindName</strong>(<span title="System.string">string</span> name)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="FindResource" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>FindResource</strong>(<span title="System.object">object</span> resourceKey)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="Focus" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>Focus</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="GetAnimationBaseValue" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>GetAnimationBaseValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="GetBindingExpression" class="method">
+		<h4>
+			<span title="System.Windows.Data.BindingExpression">BindingExpression</span> <strong>GetBindingExpression</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="GetLocalValueEnumerator" class="method">
+		<h4>
+			<span title="System.Windows.LocalValueEnumerator">LocalValueEnumerator</span> <strong>GetLocalValueEnumerator</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="GetValue" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>GetValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="InputHitTest" class="method">
+		<h4>
+			<span title="System.Windows.IInputElement">IInputElement</span> <strong>InputHitTest</strong>(<span title="System.Windows.Point">Point</span> point)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="InvalidateArrange" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>InvalidateArrange</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="InvalidateMeasure" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>InvalidateMeasure</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="InvalidateProperty" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>InvalidateProperty</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="InvalidateVisual" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>InvalidateVisual</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="IsAncestorOf" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsAncestorOf</strong>(<span title="System.Windows.DependencyObject">DependencyObject</span> descendant)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="IsDescendantOf" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsDescendantOf</strong>(<span title="System.Windows.DependencyObject">DependencyObject</span> ancestor)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="Measure" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>Measure</strong>(<span title="System.Windows.Size">Size</span> availableSize)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="MoveFocus" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>MoveFocus</strong>(<span title="System.Windows.Input.TraversalRequest">TraversalRequest</span> request)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="OnApplyTemplate" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>OnApplyTemplate</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="PointFromScreen" class="method">
+		<h4>
+			<span title="System.Windows.Point">Point</span> <strong>PointFromScreen</strong>(<span title="System.Windows.Point">Point</span> point)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="PointToScreen" class="method">
+		<h4>
+			<span title="System.Windows.Point">Point</span> <strong>PointToScreen</strong>(<span title="System.Windows.Point">Point</span> point)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="PredictFocus" class="method">
+		<h4>
+			<span title="System.Windows.DependencyObject">DependencyObject</span> <strong>PredictFocus</strong>(<span title="System.Windows.Input.FocusNavigationDirection">FocusNavigationDirection</span> direction)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="RaiseEvent" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>RaiseEvent</strong>(<span title="System.Windows.RoutedEventArgs">RoutedEventArgs</span> e)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ReadLocalValue" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>ReadLocalValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="RegisterName" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>RegisterName</strong>(<span title="System.string">string</span> name, <span title="System.object">object</span> scopedElement)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ReleaseAllTouchCaptures" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ReleaseAllTouchCaptures</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ReleaseMouseCapture" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ReleaseMouseCapture</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ReleaseStylusCapture" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>ReleaseStylusCapture</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ReleaseTouchCapture" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ReleaseTouchCapture</strong>(<span title="System.Windows.Input.TouchDevice">TouchDevice</span> touchDevice)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="RemoveHandler" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>RemoveHandler</strong>(<span title="System.Windows.RoutedEvent">RoutedEvent</span> routedEvent, <span title="System.Delegate">Delegate</span> handler)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetBinding" class="method">
+		<h4>
+			<span title="System.Windows.Data.BindingExpressionBase">BindingExpressionBase</span> <strong>SetBinding</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.Windows.Data.BindingBase">BindingBase</span> binding)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetBinding" class="method">
+		<h4>
+			<span title="System.Windows.Data.BindingExpression">BindingExpression</span> <strong>SetBinding</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.string">string</span> path)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetCurrentValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>SetCurrentValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.object">object</span> value)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetResourceReference" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>SetResourceReference</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.object">object</span> name)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>SetValue</strong>(<span title="System.Windows.DependencyPropertyKey">DependencyPropertyKey</span> key, <span title="System.object">object</span> value)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="SetValue" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>SetValue</strong>(<span title="System.Windows.DependencyProperty">DependencyProperty</span> dp, <span title="System.object">object</span> value)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeCommandBindings" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeCommandBindings</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeContent" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeContent</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeInputBindings" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeInputBindings</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeResources" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeResources</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeStyle" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeStyle</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="ShouldSerializeTriggers" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ShouldSerializeTriggers</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TransformToAncestor" class="method">
+		<h4>
+			<span title="System.Windows.Media.Media3D.GeneralTransform2DTo3D">GeneralTransform2DTo3D</span> <strong>TransformToAncestor</strong>(<span title="System.Windows.Media.Media3D.Visual3D">Visual3D</span> ancestor)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TransformToAncestor" class="method">
+		<h4>
+			<span title="System.Windows.Media.GeneralTransform">GeneralTransform</span> <strong>TransformToAncestor</strong>(<span title="System.Windows.Media.Visual">Visual</span> ancestor)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TransformToDescendant" class="method">
+		<h4>
+			<span title="System.Windows.Media.GeneralTransform">GeneralTransform</span> <strong>TransformToDescendant</strong>(<span title="System.Windows.Media.Visual">Visual</span> descendant)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TransformToVisual" class="method">
+		<h4>
+			<span title="System.Windows.Media.GeneralTransform">GeneralTransform</span> <strong>TransformToVisual</strong>(<span title="System.Windows.Media.Visual">Visual</span> visual)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TranslatePoint" class="method">
+		<h4>
+			<span title="System.Windows.Point">Point</span> <strong>TranslatePoint</strong>(<span title="System.Windows.Point">Point</span> point, <span title="System.Windows.UIElement">UIElement</span> relativeTo)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="TryFindResource" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>TryFindResource</strong>(<span title="System.object">object</span> resourceKey)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="UnregisterName" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>UnregisterName</strong>(<span title="System.string">string</span> name)
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="UpdateDefaultStyle" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>UpdateDefaultStyle</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="UpdateLayout" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>UpdateLayout</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	<div id="VerifyAccess" class="method">
+		<h4>
+			<span title="System.void">void</span> <strong>VerifyAccess</strong>()
+		</h4>
+		<div class="content">
+
+
+
+
+		</div>
+	</div>
+	
+	
+	<h3 class="section">Public properties</h3>
+
+	<div id="ActualHeight" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>ActualHeight</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ActualWidth" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>ActualWidth</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="AllowDrop" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>AllowDrop</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="AreAnyTouchesCaptured" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>AreAnyTouchesCaptured</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="AreAnyTouchesCapturedWithin" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>AreAnyTouchesCapturedWithin</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="AreAnyTouchesDirectlyOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>AreAnyTouchesDirectlyOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="AreAnyTouchesOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>AreAnyTouchesOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Background" class="method">
+		<h4>
+			<span title="System.Windows.Media.Brush">Brush</span> <strong>Background</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="BindingGroup" class="method">
+		<h4>
+			<span title="System.Windows.Data.BindingGroup">BindingGroup</span> <strong>BindingGroup</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="BitmapEffect" class="method">
+		<h4>
+			<span title="System.Windows.Media.Effects.BitmapEffect">BitmapEffect</span> <strong>BitmapEffect</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="BitmapEffectInput" class="method">
+		<h4>
+			<span title="System.Windows.Media.Effects.BitmapEffectInput">BitmapEffectInput</span> <strong>BitmapEffectInput</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="BorderBrush" class="method">
+		<h4>
+			<span title="System.Windows.Media.Brush">Brush</span> <strong>BorderBrush</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="BorderThickness" class="method">
+		<h4>
+			<span title="System.Windows.Thickness">Thickness</span> <strong>BorderThickness</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="CacheMode" class="method">
+		<h4>
+			<span title="System.Windows.Media.CacheMode">CacheMode</span> <strong>CacheMode</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Clip" class="method">
+		<h4>
+			<span title="System.Windows.Media.Geometry">Geometry</span> <strong>Clip</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ClipToBounds" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ClipToBounds</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="CommandBindings" class="method">
+		<h4>
+			<span title="System.Windows.Input.CommandBindingCollection">CommandBindingCollection</span> <strong>CommandBindings</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Content" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>Content</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ContentStringFormat" class="method">
+		<h4>
+			<span title="System.string">string</span> <strong>ContentStringFormat</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ContentTemplate" class="method">
+		<h4>
+			<span title="System.Windows.DataTemplate">DataTemplate</span> <strong>ContentTemplate</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ContentTemplateSelector" class="method">
+		<h4>
+			<span title="System.Windows.Controls.DataTemplateSelector">DataTemplateSelector</span> <strong>ContentTemplateSelector</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ContextMenu" class="method">
+		<h4>
+			<span title="System.Windows.Controls.ContextMenu">ContextMenu</span> <strong>ContextMenu</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Cursor" class="method">
+		<h4>
+			<span title="System.Windows.Input.Cursor">Cursor</span> <strong>Cursor</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="DataContext" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>DataContext</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="DependencyObjectType" class="method">
+		<h4>
+			<span title="System.Windows.DependencyObjectType">DependencyObjectType</span> <strong>DependencyObjectType</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="DesiredSize" class="method">
+		<h4>
+			<span title="System.Windows.Size">Size</span> <strong>DesiredSize</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Dispatcher" class="method">
+		<h4>
+			<span title="System.Windows.Threading.Dispatcher">Dispatcher</span> <strong>Dispatcher</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Effect" class="method">
+		<h4>
+			<span title="System.Windows.Media.Effects.Effect">Effect</span> <strong>Effect</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FlowDirection" class="method">
+		<h4>
+			<span title="System.Windows.FlowDirection">FlowDirection</span> <strong>FlowDirection</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Focusable" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>Focusable</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FocusVisualStyle" class="method">
+		<h4>
+			<span title="System.Windows.Style">Style</span> <strong>FocusVisualStyle</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FontFamily" class="method">
+		<h4>
+			<span title="System.Windows.Media.FontFamily">FontFamily</span> <strong>FontFamily</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FontSize" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>FontSize</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FontStretch" class="method">
+		<h4>
+			<span title="System.Windows.FontStretch">FontStretch</span> <strong>FontStretch</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FontStyle" class="method">
+		<h4>
+			<span title="System.Windows.FontStyle">FontStyle</span> <strong>FontStyle</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="FontWeight" class="method">
+		<h4>
+			<span title="System.Windows.FontWeight">FontWeight</span> <strong>FontWeight</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ForceCursor" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>ForceCursor</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Foreground" class="method">
+		<h4>
+			<span title="System.Windows.Media.Brush">Brush</span> <strong>Foreground</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HasAnimatedProperties" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>HasAnimatedProperties</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HasContent" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>HasContent</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HasHeader" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>HasHeader</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Header" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>Header</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HeaderStringFormat" class="method">
+		<h4>
+			<span title="System.string">string</span> <strong>HeaderStringFormat</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HeaderTemplate" class="method">
+		<h4>
+			<span title="System.Windows.DataTemplate">DataTemplate</span> <strong>HeaderTemplate</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HeaderTemplateSelector" class="method">
+		<h4>
+			<span title="System.Windows.Controls.DataTemplateSelector">DataTemplateSelector</span> <strong>HeaderTemplateSelector</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Height" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>Height</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HorizontalAlignment" class="method">
+		<h4>
+			<span title="System.Windows.HorizontalAlignment">HorizontalAlignment</span> <strong>HorizontalAlignment</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="HorizontalContentAlignment" class="method">
+		<h4>
+			<span title="System.Windows.HorizontalAlignment">HorizontalAlignment</span> <strong>HorizontalContentAlignment</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="InputBindings" class="method">
+		<h4>
+			<span title="System.Windows.Input.InputBindingCollection">InputBindingCollection</span> <strong>InputBindings</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="InputScope" class="method">
+		<h4>
+			<span title="System.Windows.Input.InputScope">InputScope</span> <strong>InputScope</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsArrangeValid" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsArrangeValid</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsEnabled" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsEnabled</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsFocused" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsFocused</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsHitTestVisible" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsHitTestVisible</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsInitialized" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsInitialized</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsInputMethodEnabled" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsInputMethodEnabled</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsKeyboardFocused" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsKeyboardFocused</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsKeyboardFocusWithin" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsKeyboardFocusWithin</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsLoaded" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsLoaded</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsManipulationEnabled" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsManipulationEnabled</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsMeasureValid" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsMeasureValid</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsMouseCaptured" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsMouseCaptured</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsMouseCaptureWithin" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsMouseCaptureWithin</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsMouseDirectlyOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsMouseDirectlyOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsMouseOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsMouseOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsSealed" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsSealed</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsSelected" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsSelected</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsStylusCaptured" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsStylusCaptured</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsStylusCaptureWithin" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsStylusCaptureWithin</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsStylusDirectlyOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsStylusDirectlyOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsStylusOver" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsStylusOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsTabStop" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsTabStop</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="IsVisible" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>IsVisible</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Language" class="method">
+		<h4>
+			<span title="System.Windows.Markup.XmlLanguage">XmlLanguage</span> <strong>Language</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="LayoutTransform" class="method">
+		<h4>
+			<span title="System.Windows.Media.Transform">Transform</span> <strong>LayoutTransform</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Margin" class="method">
+		<h4>
+			<span title="System.Windows.Thickness">Thickness</span> <strong>Margin</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="MaxHeight" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>MaxHeight</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="MaxWidth" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>MaxWidth</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="MinHeight" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>MinHeight</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="MinWidth" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>MinWidth</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Name" class="method">
+		<h4>
+			<span title="System.string">string</span> <strong>Name</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Opacity" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>Opacity</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="OpacityMask" class="method">
+		<h4>
+			<span title="System.Windows.Media.Brush">Brush</span> <strong>OpacityMask</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="OverridesDefaultStyle" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>OverridesDefaultStyle</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Padding" class="method">
+		<h4>
+			<span title="System.Windows.Thickness">Thickness</span> <strong>Padding</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Parent" class="method">
+		<h4>
+			<span title="System.Windows.DependencyObject">DependencyObject</span> <strong>Parent</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="PersistId" class="method">
+		<h4>
+			<span title="System.int">int</span> <strong>PersistId</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="RenderSize" class="method">
+		<h4>
+			<span title="System.Windows.Size">Size</span> <strong>RenderSize</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="RenderTransform" class="method">
+		<h4>
+			<span title="System.Windows.Media.Transform">Transform</span> <strong>RenderTransform</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="RenderTransformOrigin" class="method">
+		<h4>
+			<span title="System.Windows.Point">Point</span> <strong>RenderTransformOrigin</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Resources" class="method">
+		<h4>
+			<span title="System.Windows.ResourceDictionary">ResourceDictionary</span> <strong>Resources</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="SnapsToDevicePixels" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>SnapsToDevicePixels</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Style" class="method">
+		<h4>
+			<span title="System.Windows.Style">Style</span> <strong>Style</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TabIndex" class="method">
+		<h4>
+			<span title="System.int">int</span> <strong>TabIndex</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TabStripPlacement" class="method">
+		<h4>
+			<span title="System.Windows.Controls.Dock">Dock</span> <strong>TabStripPlacement</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Tag" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>Tag</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Template" class="method">
+		<h4>
+			<span title="System.Windows.Controls.ControlTemplate">ControlTemplate</span> <strong>Template</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TemplatedParent" class="method">
+		<h4>
+			<span title="System.Windows.DependencyObject">DependencyObject</span> <strong>TemplatedParent</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="ToolTip" class="method">
+		<h4>
+			<span title="System.object">object</span> <strong>ToolTip</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TouchesCaptured" class="method">
+		<h4>
+			<span title="System.Collections.Generic.IEnumerable<TouchDevice>">IEnumerable&lt;TouchDevice&gt;</span> <strong>TouchesCaptured</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TouchesCapturedWithin" class="method">
+		<h4>
+			<span title="System.Collections.Generic.IEnumerable<TouchDevice>">IEnumerable&lt;TouchDevice&gt;</span> <strong>TouchesCapturedWithin</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TouchesDirectlyOver" class="method">
+		<h4>
+			<span title="System.Collections.Generic.IEnumerable<TouchDevice>">IEnumerable&lt;TouchDevice&gt;</span> <strong>TouchesDirectlyOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="TouchesOver" class="method">
+		<h4>
+			<span title="System.Collections.Generic.IEnumerable<TouchDevice>">IEnumerable&lt;TouchDevice&gt;</span> <strong>TouchesOver</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Triggers" class="method">
+		<h4>
+			<span title="System.Windows.TriggerCollection">TriggerCollection</span> <strong>Triggers</strong> get; 
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Uid" class="method">
+		<h4>
+			<span title="System.string">string</span> <strong>Uid</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="UseLayoutRounding" class="method">
+		<h4>
+			<span title="System.bool">bool</span> <strong>UseLayoutRounding</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="VerticalAlignment" class="method">
+		<h4>
+			<span title="System.Windows.VerticalAlignment">VerticalAlignment</span> <strong>VerticalAlignment</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="VerticalContentAlignment" class="method">
+		<h4>
+			<span title="System.Windows.VerticalAlignment">VerticalAlignment</span> <strong>VerticalContentAlignment</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Visibility" class="method">
+		<h4>
+			<span title="System.Windows.Visibility">Visibility</span> <strong>Visibility</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+	<div id="Width" class="method">
+		<h4>
+			<span title="System.double">double</span> <strong>Width</strong> get; set;
+		</h4>
+		<div class="content">
+
+		</div>
+	</div>
+  <h3 class="section">Public fields</h3>
+
+  <div id="CloseEvent" class="method">
+    <h4>RoutedEvent <strong>CloseEvent</strong></h4>
+    <div class="content">
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.Windows.RoutedEvent">RoutedEvent</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+	</section>
+	</article><footer>
+	<span id="version">Built from v1.0.0.0 of ElementSuite.Addin</span>
+	<span id="docu-link">
+		Generated by <a href="http://docu.jagregory.com">docu</a>
+	</span>
+</footer>
+  </body>
+</html>
