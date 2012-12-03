@@ -4,7 +4,7 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-    <title>IResourceService - ElementSuite.Addin Documentation</title>
+    <title>IWorkCommand - ElementSuite.Addin Documentation</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
     <link type="text/css" rel="stylesheet" href="../main.css"/>
     <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
@@ -47,7 +47,7 @@
             <a href="../ElementSuite.Common.Interface/IMessageService.htm">IMessageService</a>
         </li>
 				<li>
-            <a href="../ElementSuite.Common.Interface/IResourceService.htm" class="current">IResourceService</a>
+            <a href="../ElementSuite.Common.Interface/IResourceService.htm">IResourceService</a>
         </li>
 				<li>
             <a href="../ElementSuite.Common.Interface/IResourceStore.htm">IResourceStore</a>
@@ -68,7 +68,7 @@
             <a href="../ElementSuite.Common.Interface/IWorkbenchService.htm">IWorkbenchService</a>
         </li>
 				<li>
-            <a href="../ElementSuite.Common.Interface/IWorkCommand.htm">IWorkCommand</a>
+            <a href="../ElementSuite.Common.Interface/IWorkCommand.htm" class="current">IWorkCommand</a>
         </li>
 				<li>
             <a href="../ElementSuite.Common.Interface/IWorker.htm">IWorker</a>
@@ -90,21 +90,25 @@
 </nav>
 	<article>
     <header>
-		<p class="class"><strong>Type</strong> IResourceService</p>
+		<p class="class"><strong>Type</strong> IWorkCommand</p>
 	</header>
 	<section>
 		<header>
 		<p><strong>Namespace</strong> ElementSuite.Common.Interface</p>
-		<p><strong>Interfaces</strong> <a href="../ElementSuite.Common.Interface/IService.htm">IService</a>, <span title="System.IDisposable">IDisposable</span></p>
 		</header>
     <div class="sub-header">
-			<div id="summary">Service that provides a resource store that is specific to the assembly that requests the store. 
+			<div id="summary">Defines the operation that will allow distributed work to be executed remotely. Classes that implement this interface
+must also place the  <span title="System.ComponentModel.Composition.ExportAttribute">ExportAttribute</span>  on the class
+and provide the type of  <a href="../ElementSuite.Common.Interface/IWorkCommand.htm">IWorkCommand</a>  as a parameter. <code>[Export(typeof(IWorkCommand))]
+public class ImplementingWorkCommand : IWorkCommand {
+...
+}</code> 
 			</div>
 		
 		
 			<h3 class="section">Methods</h3>
 			<ul>
-				<li><a href="../ElementSuite.Common.Interface/IResourceService.htm#RetrieveResourceStore">RetrieveResourceStore</a></li>
+				<li><a href="../ElementSuite.Common.Interface/IWorkCommand.htm#Execute">Execute</a></li>
 			</ul>
 		
 		
@@ -112,20 +116,20 @@
 	
 	<h3 class="section">Public instance methods</h3>
 
-	<div id="RetrieveResourceStore" class="method">
+	<div id="Execute" class="method">
 		<h4>
-			<a href="../ElementSuite.Common.Interface/IResourceStore.htm">IResourceStore</a> <strong>RetrieveResourceStore</strong>(<span title="System.Type">Type</span> evidence)
+			<a href="../ElementSuite.Common.Interface/IWorkResult.htm">IWorkResult</a> <strong>Execute</strong>(<a href="../ElementSuite.Common.Interface/IWorkItem.htm">IWorkItem</a> workItem)
 		</h4>
-		<div class="content">Retrieve a resource store for the requesting assembly. 
+		<div class="content">Evaluates the given work item and provides the corresponding result. 
 
 
 			<div class="parameters">
 				<h5>Parameters</h5>
 				<dl>
 						<dt>
-							<code><span title="System.Type">Type</span></code> evidence
+							<code><a href="../ElementSuite.Common.Interface/IWorkItem.htm">IWorkItem</a></code> workItem
 						</dt>
-						<dd>Any type from the requesting assembly. 
+						<dd>Work item to be evaluated. 
 						</dd>
 				</dl>
 			</div>
@@ -135,9 +139,9 @@
 				<h5>Returns</h5>
 				<dl>
 					<dt>
-						<code><a href="../ElementSuite.Common.Interface/IResourceStore.htm">IResourceStore</a></code>
+						<code><a href="../ElementSuite.Common.Interface/IWorkResult.htm">IWorkResult</a></code>
 					</dt>
-					<dd>Resource store for the requesting assembly 
+					<dd>Result of the work item evaluation. 
 					</dd>
 				</dl>
 			</div>
