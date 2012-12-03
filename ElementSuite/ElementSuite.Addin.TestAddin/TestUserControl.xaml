@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="ElementSuite.Addin.Test.TestUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementSuite.Addin.Test"
+
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <local:TestViewModel x:Key="testViewModel" />
+    </UserControl.Resources>
+    <DockPanel>
+        <Label Name="Title" Content="The Sweet Test Addin" DockPanel.Dock="Top"/>
+        <Button Name="Calculate" Content="Calculate" DockPanel.Dock="Top" Command="{ Binding CalculateCommand }" />
+        <StackPanel Orientation="Horizontal">
+            <DataGrid Name="GridA" ItemsSource="{ Binding GridA }"/>
+            <DataGrid Name="GridB" ItemsSource="{ Binding GridB }"/>
+            <DataGrid Name="GridC" ItemsSource="{ Binding GridC }"/>
+        </StackPanel>
+    </DockPanel>
+
+</UserControl>

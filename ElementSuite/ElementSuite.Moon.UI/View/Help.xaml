@@ -1,0 +1,16 @@
+﻿<Window x:Class="ElementSuite.Moon.UI.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" Height="350" Width="525" Background="#FFCBCBD1">
+	<Canvas HorizontalAlignment="Left" Height="320" VerticalAlignment="Top" Width="517">
+		<Label Content="Element Suite" Canvas.Left="10" Canvas.Top="65" Width="497" HorizontalContentAlignment="Center"/>
+		<Label Content="Written by Bart Sipes" Canvas.Left="10" Canvas.Top="90.96" Width="497" HorizontalContentAlignment="Center"/>
+		<Label Content="University of West Florida&#xD;&#xA;COT 6931 Computer Science Project&#xD;&#xA;Fall 2012&#xD;&#xA;Dr. Donna Lohr" Canvas.Left="10" Canvas.Top="124.96" Width="497" HorizontalContentAlignment="Center" HorizontalAlignment="Center"/>
+		<Label Content="For help with the application please visit:" Canvas.Left="10" Canvas.Top="213.96" Width="497" HorizontalContentAlignment="Center"/>
+		<Label Canvas.Left="10" Canvas.Top="228.96" Width="497" HorizontalContentAlignment="Center" Foreground="#FF0007FF" MouseUp="OpenHelpWebsite">
+			<TextBlock>
+				<Underline>https://github.com/bartsipes/ElementSuite</Underline>
+			</TextBlock>
+		</Label>
+	</Canvas>
+</Window>
