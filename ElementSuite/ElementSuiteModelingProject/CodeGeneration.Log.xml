@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="ProjectPath = ..\ElementSuiteModelingProjectLib\ElementSuiteModelingProjectLib.csproj" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2012-11-27T22:16:22" Importance="Medium" Text="ElementSuiteModelingProject's Text Template Binding: 'EnumTemplate' will apply EnumTemplate.t4 to: 'ElementSuiteModelingProject::Addin::AddinType' -  (Enumeration) " />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::AddinType' -  (Enumeration) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\AddinType.cs" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="ProjectPath = ..\ElementSuiteModelingProjectLib\ElementSuiteModelingProjectLib.csproj" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="ElementSuiteModelingProject's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'ElementSuiteModelingProject::Common::Interfaces::IWorkQueue' -  (Interface), 'ElementSuiteModelingProject::Addin::Interface::IAddinWorkQueue' -  (Interface), 'ElementSuiteModelingProject::Addin::Interface::IContextualWorkResult' -  (Interface), 'ElementSuiteModelingProject::Addin::Interface::IWorkService' -  (Interface), 'ElementSuiteModelingProject::Addin::Interface::IAddin' -  (Interface), 'ElementSuiteModelingProject::Addin::Interface::IMenuExtension' -  (Interface) " />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="'ElementSuiteModelingProject::Common::Interfaces::IWorkQueue' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Common\Interfaces\IWorkQueue.cs" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::Interface::IAddinWorkQueue' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\Interface\IAddinWorkQueue_TWorkItem_TWorkResult.cs" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::Interface::IContextualWorkResult' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\Interface\IContextualWorkResult_TWorkItem_TWorkResult.cs" />
+  <Message Timestamp="2012-11-27T22:16:23" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::Interface::IWorkService' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\Interface\IWorkService.cs" />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::Interface::IAddin' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\Interface\IAddin.cs" />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Medium" Text="'ElementSuiteModelingProject::Addin::Interface::IMenuExtension' -  (Interface) : success (file replaced) - C:\Users\Bart\Documents\Workspaces\element5\Element Suite\Main\ElementSuiteModelingProjectLib\GeneratedCode\Addin\Interface\IMenuExtension.cs" />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Diagnostic" Text="'ElementSuiteModelingProject::Common::Interfaces' -  (Package): no bound template." />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Diagnostic" Text="'ElementSuiteModelingProject::Addin' -  (Package): no bound template." />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="Diagnostic" Text="'ElementSuiteModelingProject::Addin::Interface' -  (Package): no bound template." />
+  <Message Timestamp="2012-11-27T22:16:24" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
