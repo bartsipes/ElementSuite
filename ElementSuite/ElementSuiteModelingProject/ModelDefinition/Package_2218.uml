@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="efc6d35a-7490-4016-89cd-5aa0a9c73154"
+  name="Addin" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="6b7814e0-9ecd-40e9-8848-4e756c08ce6a"
+        name="AddinType"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="817004b5-c53b-4d87-af86-399e7e638ce2"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d08a1363-20d0-45ae-b353-0fb8088c0bb5">
+                <propertyInstance
+                  Id="2fc159b5-4925-422c-a032-a28214c4161f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f4ebdfb-354d-4eb4-8db2-77f6cfdaf88f">
+                <propertyInstance
+                  Id="227a806d-aa9a-4028-bcdd-ac4aba251d79"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04038a48-d083-44bc-8799-7d30085015e9">
+                <propertyInstance
+                  Id="0a1d6f48-2f16-4c5c-8777-77ab0f51171d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="7eca60e4-1402-4e93-8ba8-0294360ae2a9"
+            name="Earth" />
+          <enumerationLiteral
+            Id="341b530b-dbb9-4405-8d12-456d2a4ac41d"
+            name="Wind" />
+          <enumerationLiteral
+            Id="2817c6c2-0645-4962-8f81-d88c96fba90d"
+            name="Fire" />
+          <enumerationLiteral
+            Id="5ea28159-58da-4c6d-a675-4420e290cf39"
+            name="Water" />
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="118a2bd5-f72b-482f-bfce-2d375252993d"
+        LastKnownName="Interface"
+        LastKnownLocation="Package_2016.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

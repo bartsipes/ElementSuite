@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="ElementSuite.UI.IntroductionTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+<ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+	<StackPanel Orientation="Vertical" MinWidth="390" MinHeight="160" >
+		<Label>
+			<TextBlock FontSize="16">Welcome to Element Suite!</TextBlock>
+		</Label>
+		<Label>
+			<TextBlock>To get started, select an addin from one of the elements on the menu.</TextBlock>
+		</Label>		
+	</StackPanel>
+	</ScrollViewer>
+</UserControl>
