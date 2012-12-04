@@ -7,8 +7,8 @@
     <ProjectGuid>{E6EC6F0F-197E-46BE-BE90-33B165449AF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ElementSuite.Addin.TestDistributed</RootNamespace>
-    <AssemblyName>ElementSuite.Addin.TestDistributed</AssemblyName>
+    <RootNamespace>ElementSuite.Addin.TestAddinDistributed</RootNamespace>
+    <AssemblyName>ElementSuite.Addin.TestAddinDistributed</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -28,7 +28,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\ElementSuite.UI\bin\Release\Addins\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
