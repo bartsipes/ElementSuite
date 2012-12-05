@@ -1,4 +1,5 @@
 ﻿using ElementSuite.Addin.Interface;
+using ElementSuite.Common;
 using ElementSuite.Common.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ using System.Windows.Input;
 
 namespace ElementSuite.Addin.Test
 {
-    [Export(typeof(IAddin))]
+    [System.ComponentModel.Composition.Export(typeof(ElementSuite.Addin.Interface.IAddin))]
     public class TestAddin : IAddin
     {
         private ObservableCollection<IMenuExtension> backingMenuExtension;
@@ -59,8 +60,7 @@ namespace ElementSuite.Addin.Test
             launch = new MenuExtension() {
                 Command = new RelayCommand((obj) => {
                               var workBench = serviceFactory.Resolve<IWorkbenchService>();
-                              var tabItem = new TabItem();
-                              tabItem.Header = "Test Addin Header";
+                              var tabItem = new WorkbenchTab("Test Addin Title");
                               tabItem.Content = new TestUserControl(serviceFactory);
                               workBench.Add(tabItem);
                           }),
